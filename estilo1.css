@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.barranavegacion {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+}
+.barranavegacion a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+.barranavegacion a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+header {
+    background: #ffffff;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    text-align: center;
+}
+.contenido {
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.contenido img {
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}

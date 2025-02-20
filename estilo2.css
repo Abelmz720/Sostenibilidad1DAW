@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+   
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 img {
+    max-width: 100%;
+    height: auto;
+}
+.barranavegacion {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+}
+.barranavegacion a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+.barenavegacion a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.contenido {
+    overflow: hidden;
+    padding: 20px;
+}
+
+.contenido a {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.contenido img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
